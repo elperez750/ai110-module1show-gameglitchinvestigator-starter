@@ -26,12 +26,18 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+The purpose of the game was to guess a number in a certain range depending on the difficulty.
 - [ ] Detail which bugs you found.
+I found countless bugs, such as the enter key not working for guessing, guesses not being accounted for if they were even, the difficulty for normal being bigger than hard.
 - [ ] Explain what fixes you applied.
+I first made sure that the bugs that I mentioned were fixed. I also moved all of the game logic to logic_utils.py and made sure to keep the streamlit ui aspects in the app.py. I added test cases for all of the functions to ensure that everything was running smoothly.
 
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+![alt text](image.png)
+
+
 
 ## 🚀 Stretch Features
 
